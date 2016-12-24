@@ -89,7 +89,7 @@ renderer.em = function (text) {
  * Render strong text.
  */
 
-renderer.strong = 
+renderer.strong =
 renderer.codespan = function (text) {
   return bold(text);
 };
@@ -162,7 +162,7 @@ function newline() {
  */
 
 function bold(str) {
-  return '\033[1m' + str + '\033[0m';
+  return '\x1B[1m' + str + '\x1B[0m';
 }
 
 /**
@@ -170,7 +170,7 @@ function bold(str) {
  */
 
 function underline(str) {
-  return '\033[4m' + str + '\033[0m';
+  return '\x1B[4m' + str + '\x1B[0m';
 }
 
 /**
@@ -178,5 +178,5 @@ function underline(str) {
  */
 
 function italic(str) {
-  return '\033[3m' + str + '\033[0m';
+  return '\x1B[3m' + str + '\x1B[0m';
 }
