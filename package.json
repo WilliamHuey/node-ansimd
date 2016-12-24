@@ -1,28 +1,28 @@
 {
-  "name": "ansimd",
-  "version": "0.2.1",
-  "description": "Markdown to ANSI for your terminal",
-  "keywords": [],
-  "bin": {
-    "ansimd": "cli.js"
-  },
-  "author": "Stephen Mathieson <me@stephenmathieson.com>",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/stephenmathieson/node-ansimd.git"
-  },
-  "dependencies": {
-    "marked": "0.3.4",
-    "unescape-html": "~1.0.0"
-  },
-  "devDependencies": {},
-  "main": "index",
-  "bugs": {
-    "url": "https://github.com/stephenmathieson/node-ansimd/issues"
-  },
-  "homepage": "https://github.com/stephenmathieson/node-ansimd",
-  "scripts": {
-    "test": "node cli.js test.md"
-  },
-  "license": "MIT"
+    "name": "@williamhuey/ansimd",
+    "version": "0.2.2",
+    "description": "[Fork] Markdown to ANSI for your terminal",
+    "keywords": [],
+    "bin": {
+        "ansimd": "cli.js"
+    },
+    "author": "Stephen Mathieson <me@stephenmathieson.com>",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/williamhuey/node-ansimd.git"
+    },
+    "dependencies": {
+        "marked": "0.3.4",
+        "unescape-html": "~1.0.0"
+    },
+    "devDependencies": {},
+    "main": "index",
+    "bugs": {
+        "url": "https://github.com/williamhuey/node-ansimd/issues"
+    },
+    "homepage": "https://github.com/williamhuey/node-ansimd",
+    "scripts": {
+        "test": "node cli.js test.md"
+    },
+    "license": "MIT"
 }
